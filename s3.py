@@ -1,5 +1,5 @@
 from flask import request, redirect, abort, jsonify, url_for
-from CTFd.models import db, Solves, Challenges, WrongKeys, Keys, Tags, Files
+from CTFd.models import db, Solves, Challenges, Fails, Flags, Tags, Files
 
 from CTFd import utils
 import os
